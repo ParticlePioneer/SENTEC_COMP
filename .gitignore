@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Results, outputs, temporary files
+results/
+*.csv
+*.h5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Ignore trained RL models (optional, but usually heavy)
+training/models/
